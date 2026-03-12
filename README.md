@@ -45,3 +45,8 @@ The following SQL queries were performed to extract insights from the dataset:
 - Sales distribution varies across different regions.
 - Aggregation queries help identify high-performing products and regions.
 
+## Author
+
+Harsha Vardhan  
+B.Tech Computer Science Engineering  
+Aspiring Data Analyst
