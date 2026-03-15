@@ -1,52 +1,35 @@
+# 🗄️ SQL Sales Analysis
 
-SQL Sales Data Analysis
-Overview
+![SQL](https://img.shields.io/badge/SQL-SQL%20Server-CC2927?logo=microsoftsqlserver)
+![SSMS](https://img.shields.io/badge/SSMS-Database-blue)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-This project analyzes retail sales data using SQL to identify key business insights such as top-performing regions, products, and sales trends. The analysis is performed using SQL queries executed in SQL Server Management Studio.
+---
 
-The goal of this project is to demonstrate SQL skills commonly used by data analysts, including aggregation, grouping, sorting, and data exploration.
+## 📌 Project Overview
 
-Tools Used
+Analyzed retail sales data using SQL Server to extract business insights through structured querying. Focused on product performance, regional trends, and time-based sales patterns.
 
-SQL
+**Business Question:** Which products and regions are performing best, and how is revenue trending over time?
 
-Microsoft SQL Server
+---
 
-SQL Server Management Studio (SSMS)
+## 📊 Dataset
 
-Dataset
+| Property | Detail |
+|---|---|
+| Records | 50,000+ transactions |
+| Columns | Order ID, Product, Category, Region, Sales, Profit, Date |
+| Tool | SQL Server / SSMS |
 
-The dataset contains sales transaction records including:
+---
 
-Product name
+## 🔍 Queries Written
 
-Sales region
-
-Sales amount
-
-This data is used to analyze revenue distribution and product performance.
-
-## Analysis Performed
-
-The following SQL queries were performed to extract insights from the dataset:
-
-- Viewing the dataset
-- Total sales by region
-- Total sales by product
-- Total number of orders
-- Orders per region
-- Highest sales transaction
-- Average sales per product
-
-## Key Insights
-
-- The South region generated the highest total sales.
-- Laptop recorded the highest average sales value.
-- Sales distribution varies across different regions.
-- Aggregation queries help identify high-performing products and regions.
-
-## Author
-
-Harsha Vardhan  
-B.Tech Computer Science Engineering  
-Aspiring Data Analyst
+| Query | Technique |
+|---|---|
+| Top 10 products by revenue | GROUP BY, ORDER BY, TOP |
+| Regional performance vs average | Window functions, AVG OVER() |
+| Product category profit margins | Aggregate functions, ROUND() |
+| Month-over-month growth | CTE, LAG(), FORMAT() |
+| Customer segm
